@@ -1,0 +1,119 @@
+accuracy_normal = 
+{'base': 0.95,
+ 'sst2_deletion': 0.1,
+ 'sst2_deletions_targeted': 0.7,
+ 'sst2_deletions_targeted_nologits': 0.6,
+ 'sst2_homoglyphs': 0.35,
+ 'sst2_homoglyphs_targeted': 0.7,
+ 'sst2_homoglyphs_targeted_nologits': 0.7,
+ 'sst2_invisibles_targeted': 0.6,
+ 'sst2_invisibles_targeted_nologits': 0.65,
+ 'sst2_invisible_chars': 0.5,
+ 'sst2_reorder': 0.55,
+ 'sst2_reorderings_targeted': 0.75,
+ 'sst2_reorderings_targeted_nologits': 0.75}
+
+accuracy_fhe =
+{'base': 0.95,
+ 'sst2_deletion': 0.15,
+ 'sst2_deletions_targeted': 0.7,
+ 'sst2_deletions_targeted_nologits': 0.6,
+ 'sst2_homoglyphs': 0.4,
+ 'sst2_homoglyphs_targeted': 0.7,
+ 'sst2_homoglyphs_targeted_nologits': 0.7,
+ 'sst2_invisibles_targeted': 0.6,
+ 'sst2_invisibles_targeted_nologits': 0.7,
+ 'sst2_invisible_chars': 0.55,
+ 'sst2_reorder': 0.5,
+ 'sst2_reorderings_targeted': 0.75,
+ 'sst2_reorderings_targeted_nologits': 0.75}
+
+precision_normal = 
+{'base': 1.0,
+ 'sst2_deletion': 0.0,
+ 'sst2_deletions_targeted': 0.625,
+ 'sst2_deletions_targeted_nologits': 0.5625,
+ 'sst2_homoglyphs': 0.36363636363636365,
+ 'sst2_homoglyphs_targeted': 0.625,
+ 'sst2_homoglyphs_targeted_nologits': 0.625,
+ 'sst2_invisibles_targeted': 0.5555555555555556,
+ 'sst2_invisibles_targeted_nologits': 0.5882352941176471,
+ 'sst2_invisible_chars': 0.5,
+ 'sst2_reorder': 0.6,
+ 'sst2_reorderings_targeted': 0.7272727272727273,
+ 'sst2_reorderings_targeted_nologits': 1.0}
+
+precision_fhe =
+{'base': 1.0,
+ 'sst2_deletion': 0.0,
+ 'sst2_deletions_targeted': 0.625,
+ 'sst2_deletions_targeted_nologits': 0.5625,
+ 'sst2_homoglyphs': 0.4,
+ 'sst2_homoglyphs_targeted': 0.625,
+ 'sst2_homoglyphs_targeted_nologits': 0.6428571428571429,
+ 'sst2_invisibles_targeted': 0.5555555555555556,
+ 'sst2_invisibles_targeted_nologits': 0.625,
+ 'sst2_invisible_chars': 0.5454545454545454,
+ 'sst2_reorder': 0.5,
+ 'sst2_reorderings_targeted': 0.7272727272727273,
+ 'sst2_reorderings_targeted_nologits': 1.0}
+
+recall_normal =
+{'base': 0.9,
+ 'sst2_deletion': 0.0,
+ 'sst2_deletions_targeted': 1.0,
+ 'sst2_deletions_targeted_nologits': 0.9,
+ 'sst2_homoglyphs': 0.4,
+ 'sst2_homoglyphs_targeted': 1.0,
+ 'sst2_homoglyphs_targeted_nologits': 1.0,
+ 'sst2_invisibles_targeted': 1.0,
+ 'sst2_invisibles_targeted_nologits': 1.0,
+ 'sst2_invisible_chars': 0.6,
+ 'sst2_reorder': 0.3,
+ 'sst2_reorderings_targeted': 0.8,
+ 'sst2_reorderings_targeted_nologits': 0.5}
+
+recall_fhe =
+{'base': 0.9,
+ 'sst2_deletion': 0.0,
+ 'sst2_deletions_targeted': 1.0,
+ 'sst2_deletions_targeted_nologits': 0.9,
+ 'sst2_homoglyphs': 0.4,
+ 'sst2_homoglyphs_targeted': 1.0,
+ 'sst2_homoglyphs_targeted_nologits': 0.9,
+ 'sst2_invisibles_targeted': 1.0,
+ 'sst2_invisibles_targeted_nologits': 1.0,
+ 'sst2_invisible_chars': 0.6,
+ 'sst2_reorder': 0.2,
+ 'sst2_reorderings_targeted': 0.8,
+ 'sst2_reorderings_targeted_nologits': 0.5}
+
+ce_normal =
+{'base': tensor(0.1946),
+ 'sst2_deletion': tensor(1.2521),
+ 'sst2_deletions_targeted': tensor(0.5379),
+ 'sst2_deletions_targeted_nologits': tensor(0.5383),
+ 'sst2_homoglyphs': tensor(1.0868),
+ 'sst2_homoglyphs_targeted': tensor(0.5803),
+ 'sst2_homoglyphs_targeted_nologits': tensor(0.5113),
+ 'sst2_invisibles_targeted': tensor(0.7941),
+ 'sst2_invisibles_targeted_nologits': tensor(0.4755),
+ 'sst2_invisible_chars': tensor(0.8643),
+ 'sst2_reorder': tensor(1.0337),
+ 'sst2_reorderings_targeted': tensor(0.6615),
+ 'sst2_reorderings_targeted_nologits': tensor(0.5554)}
+
+ce_fhe =
+{'base': tensor(0.1954),
+ 'sst2_deletion': tensor(1.2411),
+ 'sst2_deletions_targeted': tensor(0.5163),
+ 'sst2_deletions_targeted_nologits': tensor(0.5220),
+ 'sst2_homoglyphs': tensor(1.0759),
+ 'sst2_homoglyphs_targeted': tensor(0.5611),
+ 'sst2_homoglyphs_targeted_nologits': tensor(0.4957),
+ 'sst2_invisibles_targeted': tensor(0.7632),
+ 'sst2_invisibles_targeted_nologits': tensor(0.4638),
+ 'sst2_invisible_chars': tensor(0.8543),
+ 'sst2_reorder': tensor(1.0290),
+ 'sst2_reorderings_targeted': tensor(0.6569),
+ 'sst2_reorderings_targeted_nologits': tensor(0.5602)}
